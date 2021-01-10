@@ -23,12 +23,14 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background-color: $gray-color;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  // border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border-color: $gray-color;
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
@@ -39,7 +41,8 @@
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    background-color: $gray-color;
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -47,7 +50,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: $white-color;
+    -webkit-text-fill-color: $purple-color;
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
@@ -70,7 +73,7 @@
   }
 
   &:hover {
-    color: $secondary-color;
+    color: $purple-color;
     text-decoration: none;
 
     &::after {
