@@ -38,28 +38,35 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  I live in Samarinda, Kalimantan Timur, Indonesia. I have a passion for a frontend development and want to learn more. I'm still young and inexperienced in a lot of things, but if you need young man with great spirit in programming maybe i am the one you need. I can work in a team, i can be the frontend or backend, and if it needed i can do a fullstack development.
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  In the spare time, i write some short story in Indonesian and learn some other technology that got me intrested. I also a tech enthusiast and can talk a lot about smartphones or laptop to others.
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                {resume && (
+                <div className="d-flex">
+                  {resume && (
+                    <span className="d-flex mt-3 mr-4">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href={resume}
+                      >
+                        My Resume
+                    </a>
+                    </span>
+                  )}
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
+                      className="cta-btn cta-btn--hero"
+                      href="https://imagin-sketch.netlify.app"
                     >
-                      Resume
+                      My Stories Site
                     </a>
                   </span>
-                )}
+                </div>
               </div>
             </Fade>
           </Col>
