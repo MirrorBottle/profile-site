@@ -28,30 +28,51 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'distan-kubar.png',
+    title: 'Company Profile',
+    client: ' DISTAN Kutai Barat',
+    url: 'https://distan-kubar.thortech.asia/',
+    techs: [
+      { name: "laravel", title: "Laravel 5.8" },
+      { name: "bootstrap", title: "Bootstrap 4" },
+      { name: "js", title: "Jquery" }
+    ]
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'imm.png',
+    title: 'Vehicle Management System (Maintenance)',
+    client: 'PT. Indominco Mandiri',
+    techs: [
+      { name: "react", title: "ReactJS" },
+      { name: "bootstrap", title: "Bootstrap 4" },
+      { name: "laravel", title: "Laravel 5.8" }
+    ],
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ksp.png',
+    title: 'Credit Union',
+    client: 'Personal Project',
+    techs: [
+      { name: "react", title: "ReactJS" },
+      { name: "bootstrap", title: "Bootstrap 4" },
+      { name: "laravel", title: "Laravel 8.0" }
+    ],
+    url: 'https://ksp.netlify.app/',
+    repo: 'https://github.com/MirrorBottle/school-work-fe'
+  },
+  {
+    id: nanoid(),
+    img: 'siabanggp.png',
+    title: 'SIABANG GP',
+    client: 'Dinas Pekerjaan Umum Balikpapan',
+    techs: [
+      { name: "bootstrap", title: "Bootstrap 4" },
+      { name: "laravel", title: "Laravel 5.8" },
+      { name: "js", title: "Leaflet" },
+    ],
+    url: 'http://siabanggp.balikpapan.go.id/tamu'
   },
 ];
 
