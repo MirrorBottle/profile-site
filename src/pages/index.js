@@ -10,12 +10,54 @@ export default () => {
 
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
-      </Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang,
+        }}
+        title={title}
+        meta={[
+          {
+            name: `description`,
+            content: description,
+          },
+          {
+            name: `keywords`,
+            content: "cerita, cerpen, blog, review",
+          },
+          {
+            property: `og:title`,
+            content: title,
+          },
+          {
+            property: `og:description`,
+            content: description,
+          },
+          {
+            property: `og:type`,
+            content: `website`,
+          },
+          {
+            name: `twitter:card`,
+            content: `summary`,
+          },
+          {
+            name: `twitter:creator`,
+            content: `Bayu Setiawan`,
+          },
+          {
+            name: `twitter:title`,
+            content: title,
+          },
+          {
+            name: `twitter:description`,
+            content: description,
+          },
+          {
+            name: `google-site-verification`,
+            content: "5oUcfGF2aQTPcIZIdvLyyfVqbU08-amZ0BVp_5_F-94",
+          },
+        ]}
+      />
       <App />
     </>
   );
