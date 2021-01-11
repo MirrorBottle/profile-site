@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../style/main.scss';
 
 export default () => {
