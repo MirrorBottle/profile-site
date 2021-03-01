@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: require('../images/resume.pdf'), // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -73,6 +73,29 @@ export const projectsData = [
       { name: "js", title: "Leaflet" },
     ],
     url: 'http://siabanggp.balikpapan.go.id/tamu'
+  },
+  {
+    id: nanoid(),
+    img: 'online-kubar.png',
+    title: 'OK Kubar',
+    client: 'DISKOMINFO Kutai Barat',
+    techs: [
+      { name: "bootstrap", title: "Bootstrap 4" },
+      { name: "laravel", title: "Laravel 5.8" },
+      { name: "js", title: "ReactJS" },
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'imagin-sketch.png',
+    title: 'ImaginSketch',
+    client: 'Personal Project',
+    techs: [
+      { name: "js-square", title: "Gatsby" },
+      { name: "js", title: "ReactJS" },
+    ],
+    url: 'http://imagin-sketch.netlify.app',
+    repo: 'https://github.com/MirrorBottle/profile-site'
   },
 ];
 
