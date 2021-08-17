@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
 const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+  const { projects, icons } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -49,7 +49,7 @@ const Projects = () => {
                         <h2 className="font-weight-bold mb-2">Build with:</h2>
                         {techs && techs.map(tech => (
                           <h2>
-                            <i className={`fab fa-${tech.name} mr-4`}></i>
+                            <span dangerouslySetInnerHTML={{__html: icons[tech.name]}} />
                             {tech.title}
                           </h2>
                         ))}
