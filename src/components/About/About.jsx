@@ -61,7 +61,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--hero"
-                      href="https://imagin-sketch.netlify.app"
+                      href="https://penaku.my.id"
                     >
                       My Stories Site
                     </a>

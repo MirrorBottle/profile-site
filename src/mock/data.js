@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable global-require */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
@@ -41,11 +43,31 @@ export const iconsData = {
   </svg>`,
   typescript: `<svg viewBox="0 0 128 128" style="height: 20px; margin-right: 10px;">
   <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path><path data-name="original" fill="#007acc" d="M1.5 63.91v62.5h125v-125H1.5zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1 23 23 0 01-12.72-6.63c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73L82 101l3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H56.66v46.23H45.15V69.26H28.88v-5a49.19 49.19 0 01.12-5.17C29.08 59 39 59 51 59h21.83z"></path>
+  </svg>`,
+  ionic: `<svg viewBox="0 0 128 128" style="height: 20px; margin-right: 10px;">
+  <g fill="#4e8ef7"><circle cx="64" cy="64" r="24.08"></circle><path d="M113.14 23.14a8.27 8.27 0 00-13.7-6.25 59 59 0 1011.67 11.67 8.24 8.24 0 002.03-5.42zM64 121A57 57 0 1198.1 18.36a8.27 8.27 0 0011.53 11.53A57 57 0 0164 121z"></path></g>
+  </svg>`,
+  gitlab: `<svg viewBox="0 0 128 128" style="height: 20px; margin-right: 10px;">
+  <path fill="#FC6D26" d="M126.615 72.31l-7.034-21.647L105.64 7.76c-.716-2.206-3.84-2.206-4.556 0l-13.94 42.903H40.856L26.916 7.76c-.717-2.206-3.84-2.206-4.557 0L8.42 50.664 1.385 72.31a4.792 4.792 0 001.74 5.358L64 121.894l60.874-44.227a4.793 4.793 0 001.74-5.357"></path><path fill="#E24329" d="M64 121.894l23.144-71.23H40.856L64 121.893z"></path><path fill="#FC6D26" d="M64 121.894l-23.144-71.23H8.42L64 121.893z"></path><path fill="#FCA326" d="M8.42 50.663L1.384 72.31a4.79 4.79 0 001.74 5.357L64 121.894 8.42 50.664z"></path><path fill="#E24329" d="M8.42 50.663h32.436L26.916 7.76c-.717-2.206-3.84-2.206-4.557 0L8.42 50.664z"></path><path fill="#FC6D26" d="M64 121.894l23.144-71.23h32.437L64 121.893z"></path><path fill="#FCA326" d="M119.58 50.663l7.035 21.647a4.79 4.79 0 01-1.74 5.357L64 121.894l55.58-71.23z"></path><path fill="#E24329" d="M119.58 50.663H87.145l13.94-42.902c.717-2.206 3.84-2.206 4.557 0l13.94 42.903z"></path>
+  </svg>`,
+  node: `<svg viewBox="0 0 128 128" style="height: 20px; margin-right: 10px;">
+  <path fill="#83CD29" d="M112.771 30.334L68.674 4.729c-2.781-1.584-6.402-1.584-9.205 0L14.901 30.334C12.031 31.985 10 35.088 10 38.407v51.142c0 3.319 2.084 6.423 4.954 8.083l11.775 6.688c5.628 2.772 7.617 2.772 10.178 2.772 8.333 0 13.093-5.039 13.093-13.828v-50.49c0-.713-.371-1.774-1.071-1.774h-5.623C42.594 41 41 42.061 41 42.773v50.49c0 3.896-3.524 7.773-10.11 4.48L18.723 90.73c-.424-.23-.723-.693-.723-1.181V38.407c0-.482.555-.966.982-1.213l44.424-25.561c.415-.235 1.025-.235 1.439 0l43.882 25.555c.42.253.272.722.272 1.219v51.142c0 .488.183.963-.232 1.198l-44.086 25.576c-.378.227-.847.227-1.261 0l-11.307-6.749c-.341-.198-.746-.269-1.073-.086-3.146 1.783-3.726 2.02-6.677 3.043-.726.253-1.797.692.41 1.929l14.798 8.754a9.294 9.294 0 004.647 1.246c1.642 0 3.25-.426 4.667-1.246l43.885-25.582c2.87-1.672 4.23-4.764 4.23-8.083V38.407c0-3.319-1.36-6.414-4.229-8.073zM77.91 81.445c-11.726 0-14.309-3.235-15.17-9.066-.1-.628-.633-1.379-1.272-1.379h-5.731c-.709 0-1.279.86-1.279 1.566 0 7.466 4.059 16.512 23.453 16.512 14.039 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.105 0 12.461 1.954 13.842 8.091.118.577.645.991 1.24.991h5.754c.354 0 .692-.143.94-.396.24-.272.367-.613.335-.979-.891-10.568-7.912-15.493-22.112-15.493-12.631 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.955-3.978 7.066-13.309 7.066z"></path>
   </svg>`
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'japan.jpg',
+    title: 'Japan Project',
+    client: 'Classified Client',
+    techs: [
+      { name: "laravel", title: "Laravel 7" },
+      { name: "vue", title: "Vue 2" },
+      { name: "gitlab", title: "± 1 Year Development"}
+    ],
+  },
   {
     id: nanoid(),
     img: 'distan-kubar.png',
@@ -68,19 +90,6 @@ export const projectsData = [
       { name: "bootstrap", title: "Bootstrap 4" },
       { name: "laravel", title: "Laravel 5.8" }
     ],
-  },
-  {
-    id: nanoid(),
-    img: 'ksp.png',
-    title: 'Credit Union',
-    client: 'Personal Project',
-    techs: [
-      { name: "react", title: "ReactJS" },
-      { name: "bootstrap", title: "Bootstrap 4" },
-      { name: "laravel", title: "Laravel 8.0" }
-    ],
-    url: 'https://ksp.netlify.app/',
-    repo: 'https://github.com/MirrorBottle/school-work-fe'
   },
   {
     id: nanoid(),
@@ -162,6 +171,90 @@ export const projectsData = [
       { name: "jquery", title: "Jquery" },
       { name: "laravel", title: "Laravel 8" },
       { name: "bootstrap", title: "Bootstrap 4" },
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'kenji.png',
+    title: 'GKII BPN Profile',
+    client: 'Kemah Injil Balikpapan',
+    techs: [
+      { name: "vue", title: "Vue 3" },
+      { name: "laravel", title: "Laravel 8" },
+    ],
+    url: 'https://gkiibpn.com'
+  },
+  {
+    id: nanoid(),
+    img: 'bdriver.png',
+    title: 'BDriver - Vehicle Management System',
+    client: 'Bank Kaltimtara',
+    techs: [
+      { name: "laravel", title: "Laravel 8" },
+      { name: "jquery", title: "Jquery" },
+    ]
+  },
+  {
+    id: nanoid(),
+    img: 'anandita.png',
+    title: 'PT. Anandita Profile',
+    client: 'PT. Anandita Putra Akmal',
+    techs: [
+      { name: "laravel", title: "Laravel 8" },
+      { name: "jquery", title: "Jquery" },
+    ],
+    url: 'https://pt-anandita.com'
+  },
+  {
+    id: nanoid(),
+    img: 'sidayaku.png',
+    title: 'SIDAYAKU - Online Visit System',
+    client: 'Personal Client',
+    techs: [
+      { name: "laravel", title: "Laravel 8" },
+      { name: "jquery", title: "Jquery" },
+    ],
+    url: 'https://sidayaku.my.id/'
+  },
+  {
+    id: nanoid(),
+    img: 'sidabusu.png',
+    title: 'SIDABUSU - Vehicle Management System (App & Website)',
+    client: 'Personal Client',
+    techs: [
+      { name: "laravel", title: "Laravel 8" },
+      { name: "jquery", title: "Jquery" },
+      { name: "ionic", title: "Ionic 5" },
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'simpeg.png',
+    title: 'SIMPEG - Staff Management System',
+    client: 'Personal Client',
+    techs: [
+      { name: "laravel", title: "Lumen" },
+      { name: "react", title: "React" },
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'naj.png',
+    title: 'NAJ - E-Procurement (Maintenance)',
+    client: 'NAJ',
+    techs: [
+      { name: "laravel", title: "Laravel 7" },
+      { name: "jquery", title: "Jquery" },
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'gjmf.png',
+    title: 'GJMF',
+    client: 'FKIP Unmul',
+    techs: [
+      { name: "node", title: "Node JS" },
+      { name: "vue", title: "Vue 2" },
     ],
   },
 ];
