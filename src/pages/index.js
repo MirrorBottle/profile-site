@@ -1,65 +1,16 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import '../style/main.scss';
+import React from "react"
 
-export default () => {
-  const { title, lang, description } = headData;
+import SEO from "../components/seo"
+import Layout from "../components/layout"
+import Hero from "../components/landing/hero"
+import Content from "../components/landing/content"
 
-  return (
-    <>
-      <Helmet
-        htmlAttributes={{
-          lang,
-        }}
-        title={title}
-        meta={[
-          {
-            name: `description`,
-            content: description,
-          },
-          {
-            name: `keywords`,
-            content: "cerita, cerpen, blog, review",
-          },
-          {
-            property: `og:title`,
-            content: title,
-          },
-          {
-            property: `og:description`,
-            content: description,
-          },
-          {
-            property: `og:type`,
-            content: `website`,
-          },
-          {
-            name: `twitter:card`,
-            content: `summary`,
-          },
-          {
-            name: `twitter:creator`,
-            content: `Bayu Setiawan`,
-          },
-          {
-            name: `twitter:title`,
-            content: title,
-          },
-          {
-            name: `twitter:description`,
-            content: description,
-          },
-          {
-            name: `google-site-verification`,
-            content: "5oUcfGF2aQTPcIZIdvLyyfVqbU08-amZ0BVp_5_F-94",
-          },
-        ]}
-      />
-      <App />
-    </>
-  );
-};
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    <Hero />
+    <Content />
+  </Layout>
+)
+
+export default IndexPage

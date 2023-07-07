@@ -1,266 +1,203 @@
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+<p align="center">
+    <img alt="Gatsby" src="https://repository-images.githubusercontent.com/307823747/e1d6d200-198c-11eb-8e33-ff253d9a01ca" width="75%" align="center" />
+</p>
+<h1 align="center">
+  gatsby-starter-personal-portfolio
+</h1>
 
-## A clean, beautiful and responsive portfolio template for Developers
+Kick off your personal site with this minimalist resume style broilerplate. This starter features user-friendly components and mobile responsive design. See it live in this [demo](https://gatsby-starter-personal-portfolio.vercel.app). 
 
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
-  <br>
-</h2>
 
-## Features
+## 👨‍💻 Why this starter?
 
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout built with React\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
-⚡️ Fully Responsive\
-⚡️ Configurable color scheme\
-⚡️ Image optimization with Gatsby\
-⚡️ Easy site customization\
-⚡️ Well organized documentation
+This template is perfect for individuals who would like to share their professional credentials in an organized website.
 
-To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
-To view a live example, **[click here](https://cobidev.com/)**
+### Blazing fast
+You might have heard this term about GatsbyJS projects before. However, I am not exagerrating. Check out the [Lighthouse scores](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fgatsby-starter-personal-portfolio.vercel.app%2F)! It's soooo... green.
 
----
+### Device independent
+Access the website through a laptop, tablet or phone with no problem. This site has been thoroughly tested to make sure that it can be viewed no matter the screen size.
 
-## Getting Started 🚀
+### Engaging layout
+This starter template offers a change in format in how you relay information _about you_ to the readers. You can say goodbye to boring blocks of endless text, while still getting the benefits of organized content.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Show off your skills and projects
+Separate sections are dedicated to your skills and projects, giving the spotlight to each and every one of them. No, you don't need to copy and paste blocks of HTML code for each additional skill you have. You can enumerate them in JSON files, and the rest gets taken care of.
 
-### Prerequisites 📋
+### Colors and dark mode
+A dark mode toggle is available no matter where your user is on the site. Not quite satisfied with the color palette? Color schemes for both light and dark modes are customizable according to your preference.
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.\
-Also you need to have installed [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/)
+## 🚀 Quick start
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-gatsby-cli@2.8.22 or higher
-```
+1.  **Get a copy on your machine**
 
-Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
+    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
-```
-yarn@v1.21.1 or higher
-```
+    ```shell
+    # create a new Gatsby site using the gatsby-starter-personal-portfolio starter
+    gatsby new my-site https://github.com/gmlunesa/gatsby-starter-personal-portfolio/
+    ```
 
----
+1.  **Start developing.**
 
-## How To Use 🔧
+    Navigate into your new site’s directory and start it up.
 
-From your command line, first clone Simplefolio:
+    ```shell
+    cd my-site
+    gatsby develop
+    ```
 
-```bash
-# Clone this repository
-$ git clone https://github.com/cobidev/gatsby-simplefolio
+1.  **Open the source code and start editing!**
 
-# Go into the repository
-$ cd gatsby-simplefolio
+    Your site is now running at `http://localhost:8000`!
 
-# Remove current origin repository
-$ git remote remove origin
-```
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-Then you can install the dependencies either using NPM or Yarn:
+    Open the `my-site` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-Using NPM:
+## 🧐 What's inside?
 
-```bash
-# Install dependencies
-$ npm install
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-# Start development server
-$ npm run develop
-```
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-Using Yarn:
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-```bash
-# Install dependencies
-$ yarn
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-# Start development server
-$ yarn develop
-```
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-**NOTE**:
-If your run into issues installing the dependencies with NPM, use this command:
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-```bash
-# Install dependencies with all permissions
-$ sudo npm install --unsafe-perm=true --allow-root
-```
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Gatsby Simplefolio" width="100%">
-</h2>
+9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
----
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-## Instructions:
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-### Step 1 - STRUCTURE
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-Go to `/src/mock/data.js` and fill your information, they are 5 objects:
+## ✏️ Modifying the site
 
-### Hero Section
+To make it easier for you, this starter is sliced into multiple components or sections for effortless management. Let's discuss them one by one. 
 
-```javascript
-export const heroData = {
-  title: '', // Hello, my name is
-  name: '', // John
-  subtitle: '', // I'm the Unknown Developer.
-  cta: '', // Know more
-};
-```
+### Components and Pages
 
-### About Section
+<details><summary>Components</summary>
 
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
+#### layout.js
+└── 📁 src/components/layout.js
 
-```javascript
-export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-};
-```
+Handles the common components that will be seen in all the pages of the site. Included in the layout.js are the following subcomponents:
+* header.js
+* footer.js
 
-### Projects Section
+#### hero.js
+└── 📁 src/components/landing/hero.js
 
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
+Handles the hero section of the landing page.
 
-Put as many projects object you want inside the `array`.
+#### content.js
+└── 📁 src/components/landing/content.js
 
-```javascript
-export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  ...
-];
-```
+Handles the resume section of the landing page.
 
-### Contact Section
+#### image.js
+└── 📁 src/components/image.js
 
-```javascript
-export const contactData = {
-  cta: '', // call to action text for the contact section
-  btn: '', // text inside the button
-  email: '',
-};
-```
+Handles the GraphQL queries for images.
 
-### Footer Section
+#### seo.js
+└── 📁 src/components/seo.js
 
-You can remove or add as many you social-media icons you want.\
-Just put an object with the corresponding values inside the networks `array` or remove it from there.
+Handles the SEO optimization.
 
-```javascript
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '', // your twitter url
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '', // your codepen url
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '', // your linkedin url
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '', // your github url
-    },
-  ],
-};
+#### links.js
+└── 📁 src/components/links.js
+
+Handles the social media links seen throughout the site.
+</details>
+
+<details><summary>Pages</summary>
+    
+#### index.js
+└── 📁 src/pages/index.js
+
+Handles the landing page of the site. Contains the following components:
+* layout.js
+* hero.js
+* content.js
+
+#### about.js
+└── 📁 src/pages/about.js
+
+Handles the About page; will be located at `your_site_url.com/about`
+
+#### contact.js
+└── 📁 src/pages/contact.js
+
+Handles the Contact page; will be located at `your_site_url.com/contact`
+
+#### 404.js
+└── 📁 src/pages/404.js
+
+Handles the custom 404 page if the user strays from the right path
+</details>
+
+### Constants
+
+You can find and replace the following constants for quick adjustments. This is completely optional and you can replace these placeholders manually.
+
+Find | Replace it with | Effect
+--- | --- | ---
+siteName | Name of your site | Site title, navbar title, footer title
+emailName | Your Google mail | Link of the email icons
+githubName | Your Github username | Link of the Github icons
+linkedinName | Your LinkedIn username | Link of the LinkedIn icons
+twitterName | Your Twitter username | Link of the Twitter icons
+
+### Languages
+You can access the `src\data\languages.json` to list the languages or skills that you have. It is automatically processed and displayed by the site.
+
+### Projects
+You can add your projects the `src\data\projects.json` to show the projects that you have. It is automatically processed and displayed by the site. Please make sure that you fill all the fields as indicated below:
+```json
+"project": "Project Sample #1",
+"language": "Python",
+"description": "A short description about the project.",
+"link": "https://github.com/"
 ```
 
-### Required - Disable GitHub buttons
+### Icons
 
-Set `isEnabled` to `false` once you finish setup your portfolio.\
-By setting to `false` it will hide the GitHub stars/fork buttons
+This site uses Font Awesome icons. Should you want to add more icons, please refer to their [website](https://fontawesome.com/) for information about the icons.
 
-```javascript
-export const githubButtons = {
-  isEnabled: true, // true is the default value
-};
-```
+## 🙏 Credits
 
-### Step 2 - STYLES
+This project is built on top of [gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world). SVG assets were downloaded from [Undraw.co](https://undraw.co).
 
-Change the color theme of the website ( choose 2 colors to create a gradient ):
+## 💫 Deploy
 
-Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gmlunesa/gatsby-starter-personal-portfolio)
 
-```scss
-// Default values
-$main-color: #02aab0;
-$secondary-color: #00cdac;
-```
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gmlunesa/gatsby-starter-personal-portfolio)
 
-**_Note_**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)
+## 👍 Feedback
 
----
+Feedback welcome! Please contact me through my email gmlunesa[at]gmail[dot]com, or visit my [website](https://gmlunesa.com).
 
-## Deployment 📦
-
-Once you have done with your setup. You need to put your website online!
-
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
-
-## Others versions 👥
-
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
-## Technologies used 🛠️
-
-- [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
-- [GraphQL](https://graphql.org/) - Query language for APIs
-- [React](https://es.reactjs.org/) - Front-End JavaScript library
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-
-## Authors
-
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments 🎁
-
-I was motivated to create this project because I wanted to contribute on something useful for the dev community, thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
+![Website](https://img.shields.io/website?down_color=blue&down_message=offline&up_color=brightgreen&up_message=online&style=flat-square&url=https%3A%2F%2Fgatsby-starter-personal-portfolio.vercel.app)

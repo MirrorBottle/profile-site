@@ -1,52 +1,51 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ */
+
 module.exports = {
+  /* Your site config here */
+  siteMetadata: {
+    title: `SiteName`,
+    description: `A minimalistic resume style Gatsby portfolio.`,
+    author: `@gmlunesa`,
+  },
   plugins: [
-    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`,
+        path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-187024276-1",
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "GTM-MMQN95S",
-        includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
-        routeChangeEventName: "gatsby-route-change",
-      },
-    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Bayu Setiawan Web Profile`,
-        short_name: `Bayu Setiawan`,
+        name: `SiteName`,
+        short_name: `SiteName`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#0a0911`,
-        display: `standalone`,
-        icon: 'src/images/favicon.png',
+        background_color: `#1b1c1e`,
+        theme_color: `#1b1c1e`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-sass`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    `gatsby-plugin-offline`,
   ],
-};
+}
