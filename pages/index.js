@@ -94,30 +94,29 @@ const Index = () => {
                 <div
                   className="subtitle"
                 >
-                  UI UX DESIGNER
+                  Full-stack Web Developer
                 </div>
                 <h2
                   className="title"
                 >
-                  Federico Ober
+                  Bayu Setiawan
                 </h2>
               </div>
               <div
                 className="description"
               >
                 <p>
-                  I am UI/UX Designer based in New York and enjoy playing
-                  with colors. I love travelling, photography &amp; music.
+                  I am Full-stack Web Developer based in Samarinda, Indonesia and mainly focus toward frontend for the late couple years. I love coffee too!
                 </p>
                 <div className="social-links">
                   <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-twitter" />
+                    <i aria-hidden="true" className="fab fa-github" />
                   </a>
                   <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-dribbble" />
+                    <i aria-hidden="true" className="fab fa-linkedin" />
                   </a>
                   <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-behance" />
+                    <i aria-hidden="true" className="fab fa-instagram" />
                   </a>
                 </div>
               </div>
@@ -125,13 +124,13 @@ const Index = () => {
             <div className="info-list">
               <ul>
                 <li>
-                  Born in <strong>NewYork</strong>
+                  Born in <strong>Samarinda, Indonesia</strong>
                 </li>
                 <li>
-                  Experience <strong>7+ Years</strong>
+                  Experience <strong>{new Date().getFullYear() - 2020}+ Years</strong>
                 </li>
                 <li>
-                  Date of Birth <strong>27 June 1992</strong>
+                  Date of Birth <strong>24 Sep 2003</strong>
                 </li>
               </ul>
             </div>
@@ -152,69 +151,18 @@ const Index = () => {
             </h2>
           </div>
           <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
-              {/* Section numbers */}
-              <div className="numbers-items">
-                <div
-                  className="numbers-item"
-                >
-                  <div className="icon">
-                    <i aria-hidden="true" className="far fa-check-circle" />
-                  </div>
-                  <div className="num">124</div>
-                  <div className="title">
-                    Completed <br />
-                    Project
-                  </div>
-                </div>
-                <div
-                  className="numbers-item"
-                >
-                  <div className="icon">
-                    <i aria-hidden="true" className="far fa-smile-beam" />
-                  </div>
-                  <div className="num">65</div>
-                  <div className="title">
-                    Happy <br />
-                    Clients
-                  </div>
-                </div>
-                <div
-                  className="numbers-item"
-                >
-                  <div className="icon">
-                    <i aria-hidden="true" className="far fa-gem" />
-                  </div>
-                  <div className="num">18</div>
-                  <div className="title">
-                    Awards <br />
-                    Won
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9">
               {/* Section Profile */}
               <div className="profile-box">
                 <div
                   className="text"
                 >
                   <p>
-                    My name is Federico Ober. I have been studying UI UX Design
-                    since October 2020. I like creating a cool design project.
+                    My name is Bayu Setiawan. I live in Samarinda, Kalimantan Timur, Indonesia. I have a passion for a frontend development and want to learn more. I'm still young and inexperienced in a lot of things, but if you need young man with great spirit in programming maybe i am the one you need. I can work in a team, i can be the frontend or backend, and if it needed i can do a fullstack development.
                   </p>
                   <p>
-                    Donec imperdiet risus at tortor consequat maximus et eget
-                    magna. Cras ornare sagittis augue, id sollicitudin justo
-                    tristique ut. Nullam ex enim, euismod vel bibendum ultrices,
-                    fringilla vel eros. Donec euismod leo lectus, et euismod
-                    metus euismod sed. Quisque quis suscipit ipsum, at
-                    pellentesque velit. Duis a congue sem.
-                  </p>
-                  <p>
-                    In sed dolor ut ligula malesuada sollicitudin. Morbi iaculis
-                    convallis arcu, nec maximus tellus sodales in. Curabitur
-                    blandit enim at nisl lobortis, non pretium enim hendrer
+                    In the spare time, i write some short story in Indonesian and learn some other technology that got me intrested. I also a coffee entusiast, more towards manual brew and exotic local coffee from my home country.
                   </p>
                   <a
                     href="#contact-section"
@@ -222,11 +170,6 @@ const Index = () => {
                   >
                     <span>Contact Me</span>
                   </a>
-                  <div
-                    className="signature"
-                  >
-                    <img src="assets/images/signature.png" alt="" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -254,12 +197,7 @@ const Index = () => {
                 className="text"
               >
                 <p>
-                  Talented UX designer with 7+ years of experience, seeking to
-                  elevate UI/UX at ABC, Inc. As Lead UI/UX Head completed
-                  project before dead line. ittis augue, id sollicitudin justo
-                  tristique ut. Nullam ex enim, euismod vel bibendum ultrices,
-                  fringilla vel eros. Donec euism od leo um, at pellentesque
-                  velituis a congue sem.
+                  Passionate Full Stack Web Developer with a knack for transforming ideas into engaging, user-friendly web applications. With a love for both front-end design and back-end logic, I excel in creating seamless digital experiences using the finest technology that best fit my clients needed.
                 </p>
               </div>
               {/* Skills */}
@@ -612,312 +550,6 @@ const Index = () => {
           <ProjectIsotop />
         </div>
       </section>
-      <section className="section" id="pricing-section">
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              Pricing Plans
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  Are you interested to work with me ? Here are my price list
-                  for design related work. Lets talk about project !
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Pricing */}
-          <div className="pricing-items row">
-            <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div
-                className="pricing-item"
-              >
-                <div className="title">Full Time</div>
-                <div className="subtitle">Available for Full Time</div>
-                <div className="price">$1200</div>
-                <div className="text">
-                  <ul>
-                    <li>Brand Design</li>
-                    <li>Advertising</li>
-                    <li>Web Development</li>
-                    <li>Photography</li>
-                  </ul>
-                </div>
-                <a href="#contact-section" className="btn">
-                  <span>Hire Me</span>
-                </a>
-              </div>
-            </div>
-            <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div
-                className="pricing-item"
-              >
-                <div className="title">Project Wise</div>
-                <div className="subtitle">Available for Freelancing</div>
-                <div className="price">$400</div>
-                <div className="text">
-                  <ul>
-                    <li>Brand Design</li>
-                    <li>Advertising</li>
-                    <li>Web Development</li>
-                    <li>Photography</li>
-                  </ul>
-                </div>
-                <a href="#contact-section" className="btn">
-                  <span>Hire Me</span>
-                </a>
-              </div>
-            </div>
-            <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div
-                className="pricing-item"
-              >
-                <div className="title">Hourley</div>
-                <div className="subtitle">Available for Hourley Basis</div>
-                <div className="price">$60</div>
-                <div className="text">
-                  <ul>
-                    <li>Brand Design</li> <li>Advertising</li>
-                    <li>Web Development</li> <li>Photography</li>
-                  </ul>
-                </div>
-                <a href="#contact-section" className="btn">
-                  <span>Hire Me</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="section no-padding-top section-parallax section-parallax-4">
-        <div className="container">
-          {/* Testimonials */}
-          <TestimonialSlider />
-        </div>
-      </section>
-      <section className="section section-bg" id="blog-section">
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              My Blog
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  Suspendisse potenti. Sed egestas eros eu libero posuere
-                  ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Blog */}
-        <div className="blog-items">
-          <div className="archive-item">
-            <div className="image">
-              <Link href="/blog-single">
-                <a>
-                  <img
-                    src="assets/images/blog4.jpg"
-                    alt="Usability Secrets to Create Better User Interfaces"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="desc">
-              <div
-                className="category"
-              >
-                UI Design
-                <br />
-                <span>November 28, 2021</span>
-              </div>
-              <h3
-                className="title"
-              >
-                <Link href="/blog-single">
-                  <a>Usability Secrets to Create Better User Interfaces</a>
-                </Link>
-              </h3>
-              <div
-                className="text"
-              >
-                <p>
-                  Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                  mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
-                  arcu lacus, ornare eget…{" "}
-                </p>
-                <div className="readmore">
-                  <Link href="/blog-single">
-                    <a className="lnk">Read more</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="archive-item">
-            <div className="image">
-              <Link href="/blog-single">
-                <a>
-                  <img
-                    src="assets/images/blog3.jpg"
-                    alt="Three Ways To Level Up Your Photography"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="desc">
-              <div
-                className="category"
-              >
-                Branding
-                <br />
-                <span>November 28, 2021</span>
-              </div>
-              <h3
-                className="title"
-              >
-                <Link href="/blog-single">
-                  <a>Three Ways To Level Up Your Photography</a>
-                </Link>
-              </h3>
-              <div
-                className="text"
-              >
-                <p>
-                  Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                  mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
-                  arcu lacus, ornare eget…{" "}
-                </p>
-                <div className="readmore">
-                  <Link href="/blog-single">
-                    <a className="lnk">Read more</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="archive-item">
-            <div className="image">
-              <Link href="/blog-single">
-                <a>
-                  <img
-                    src="assets/images/single7.jpg"
-                    alt="10 Useful Tips to Improve Your UI Designs"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="desc">
-              <div
-                className="category"
-              >
-                Photography
-                <br />
-                <span>November 28, 2021</span>
-              </div>
-              <h3
-                className="title"
-              >
-                <Link href="/blog-single">
-                  <a>10 Useful Tips to Improve Your UI Designs</a>
-                </Link>
-              </h3>
-              <div
-                className="text"
-              >
-                <p>
-                  Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                  mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
-                  arcu lacus, ornare eget…
-                </p>
-                <div className="readmore">
-                  <Link href="/blog-single">
-                    <a className="lnk">Read more</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="blog-more-link">
-          <Link href="/blog">
-            <a
-              className="btn"
-            >
-              <span>View Blog</span>
-            </a>
-          </Link>
-        </div>
-      </section>
-      <section className="section section-parallax section-parallax-5">
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              My Clients
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  Suspendisse potenti. Sed egestas eros eu libero posuere
-                  ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row clients-items">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand1.png" alt="" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand2.png" alt="" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand3.png" alt="" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand4.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <ContactForm />
     </Layout>
   );
 };
