@@ -65,6 +65,10 @@ function MyApp({ Component, pageProps }) {
           media="all"
         />
 
+
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
         {/* <!-- Favicon --> */}
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />

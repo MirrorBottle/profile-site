@@ -194,29 +194,13 @@ const Header = () => {
                     </li>
                     <li className="menu-item">
                       <a
-                        href="/#pricing-section"
-                        onClick={() => linkClick()}
-                      >
-                        Pricing
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
-                        href="/#blog-section"
-                        onClick={() => linkClick()}
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
                         href="/#contact-section"
                         onClick={() => linkClick()}
                       >
                         Contact
                       </a>
                     </li>
-                    <li className="menu-item menu-item-has-children has-children">
+                    {/* <li className="menu-item menu-item-has-children has-children">
                       <a
                         className="position-relative"
                         onClick={() => setPageToggle(!pageToggle)}
@@ -279,7 +263,7 @@ const Header = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -291,23 +275,23 @@ const Header = () => {
           <a
             href="http://dribbble.com"
             target="blank"
-            title="dribbble"
+            title="mail"
           >
-            <i className="fab fa-dribbble" />
+            <i className="fas fa-envelope" />
           </a>
           <a
-            href="http://twitter.com"
+            href="http://github.com"
             target="blank"
-            title="twitter"
+            title="github"
           >
-            <i className="fab fa-twitter" />
+            <i className="fab fa-github" />
           </a>
           <a
-            href="http://behance.com"
+            href="http://linkedin.com"
             target="blank"
-            title="behance"
+            title="linkedin"
           >
-            <i className="fab fa-behance" />
+            <i className="fab fa-linkedin" />
           </a>
         </div>
       </div>

@@ -1,13 +1,63 @@
 import dynamic from "next/dynamic";
-import Link from "next/link";
-import ContactForm from "../src/components/ContactForm";
-import TestimonialSlider from "../src/components/TestimonialSlider";
 import Layout from "../src/layout/Layout";
-
+import { Tooltip } from 'react-tooltip'
 const ProjectIsotop = dynamic(() => import("../src/components/ProjectIsotop"), {
   ssr: false,
 });
 const Index = () => {
+
+  const skills = [
+    { name: 'Back-end Dev', value: 'Expert (4+ Years)' },
+    { name: 'Front-end Dev', value: 'Expert (3+ Years)' },
+    { name: 'Scrum Agile', value: 'Intermediate (2+ Years)' },
+    { name: 'Mobile Dev', value: 'Intermediate (2+ Years)' },
+    { name: 'Remote Working', value: 'Accustomed (3+ Years)' },
+  ]
+
+  const languages = [
+    { name: 'PHP', icon: 'devicon-php-plain' },
+    { name: 'Javascript', icon: 'devicon-javascript-plain' },
+    { name: 'Typescript', icon: 'devicon-typescript-plain' },
+    { name: 'Dart', icon: 'devicon-dart-plain' },
+    { name: 'Python', icon: 'devicon-python-plain' },
+    { name: 'Java', icon: 'devicon-java-plain' },
+    { name: 'SQL', icon: 'devicon-mysql-plain' },
+    { name: 'HTML', icon: 'devicon-html5-plain' },
+    { name: 'CSS', icon: 'devicon-css3-plain' },
+    { name: 'SASS', icon: 'devicon-sass-original' },
+  ];
+
+  const frameworks = [
+    { name: 'Laravel', icon: 'devicon-laravel-original' },
+    { name: 'Vue.js', icon: 'devicon-vuejs-plain' },
+    { name: 'React', icon: 'devicon-react-original' },
+    { name: 'Node.js', icon: 'devicon-nodejs-plain' },
+    { name: 'Tailwindcss', icon: 'devicon-tailwindcss-original' },
+    { name: 'Ant Design', icon: 'devicon-antdesign-plain' },
+    { name: 'Bootstrap', icon: 'devicon-bootstrap-plain' },
+    { name: 'Flutter', icon: 'devicon-flutter-plain' },
+    { name: 'Next.js', icon: 'devicon-nextjs-plain' },
+    { name: 'Nuxt.js', icon: 'devicon-nuxtjs-plain' },
+    { name: 'Gatsby', icon: 'devicon-gatsby-plain' },
+    { name: 'Ionic', icon: 'devicon-ionic-original' },
+    { name: 'Capacitor', icon: 'devicon-capacitor-plain' },
+    { name: 'Express', icon: 'devicon-express-original' },
+    { name: 'CodeIgniter', icon: 'devicon-codeigniter-plain' },
+  ]
+
+  const tools = [
+    { name: 'Git', icon: 'devicon-git-plain' },
+    { name: 'VS Code', icon: 'devicon-vscode-plain' },
+    { name: 'Github', icon: 'devicon-github-plain' },
+    { name: 'Gitlab', icon: 'devicon-gitlab-plain' },
+    { name: 'NPM', icon: 'devicon-npm-original-wordmark' },
+    { name: 'Jira', icon: 'devicon-jira-plain' },
+    { name: 'Eslint', icon: 'devicon-eslint-plain' },
+    { name: 'Jetpack', icon: 'devicon-jetpackcompose-plain' },
+    { name: 'Vercel', icon: 'devicon-vercel-plain' },
+    { name: 'Postman', icon: 'devicon-postman-plain' },
+    { name: 'Swagger', icon: 'devicon-swagger-plain' },
+  ]
   return (
     <Layout>
       <section className="section section-started">
@@ -17,7 +67,7 @@ const Index = () => {
             <div
               className="slide"
             >
-              <img src="assets/images/profile.png" alt="" />
+              {/* <img src="assets/images/profile.png" alt="" /> */}
               <span className="circle circle-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +215,8 @@ const Index = () => {
                     In the spare time, i write some short story in Indonesian and learn some other technology that got me intrested. I also a coffee entusiast, more towards manual brew and exotic local coffee from my home country.
                   </p>
                   <a
-                    href="#contact-section"
+                    href="mailto:setiawanbayu66152@gmail.com"
+                    rel="noopener noreferrer" target="_blank"
                     className="btn"
                   >
                     <span>Contact Me</span>
@@ -207,198 +258,139 @@ const Index = () => {
                 >
                   SKILLS
                 </div>
-                <div
-                  className="skills-item"
-                >
-                  <div className="name">Photoshop</div>
-                  <div className="dots dots-90">
-                    <div className="dots-row">
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
+                {skills.map(skill => (
+                  <div className="skills-item" key={skill.name}>
+                    <div className="name">{skill.name}</div>
+                    <div className="value">
+                      <span className="num">{skill.value}</span>
                     </div>
                   </div>
-                  <div className="value">
-                    <span className="num">90%</span>
-                  </div>
-                </div>
-                <div
-                  className="skills-item"
-                >
-                  <div className="name">WordPress</div>
-                  <div className="dots dots-60">
-                    <div className="dots-row">
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                    </div>
-                  </div>
-                  <div className="value">
-                    <span className="num">60%</span>
-                  </div>
-                </div>
-                <div
-                  className="skills-item"
-                >
-                  <div className="name">HTML</div>
-                  <div className="dots dots-80">
-                    <div className="dots-row">
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                    </div>
-                  </div>
-                  <div className="value">
-                    <span className="num">80%</span>
-                  </div>
-                </div>
-                <div
-                  className="skills-item"
-                >
-                  <div className="name">Java</div>
-                  <div className="dots dots-50">
-                    <div className="dots-row">
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                    </div>
-                  </div>
-                  <div className="value">
-                    <span className="num">50%</span>
-                  </div>
-                </div>
-                <div
-                  className="skills-item"
-                >
-                  <div className="name">jQuery</div>
-                  <div className="dots dots-70">
-                    <div className="dots-row">
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                      <div className="dot" />
-                    </div>
-                  </div>
-                  <div className="value">
-                    <span className="num">70%</span>
-                  </div>
-                </div>
+                ))}
               </div>
-              {/* Services */}
+              {/* Languages */}
               <div
                 className="p-title"
               >
-                SERVICES
+                LANGUAGES
               </div>
-              <div className="services-items">
-                <div className="services-col">
+              <div className="services-items mt-1 px-2">
+                <Tooltip id="language-tooltip" />
+                {languages.map(language => (
                   <div
+                    key={language.name}
                     className="services-item"
+                    data-tooltip-id="language-tooltip"
+                    data-tooltip-content={language.name}
+                    data-tooltip-place="top"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-chrome" />
+                      <i aria-hidden="true" className={language.icon} />
                     </div>
-                    <div className="title">Web development</div>
-                    <div className="text">
-                      <p>
-                        Modern and mobile-ready website that will help you reach
-                        all of your marketing.
-                      </p>
+                  </div>
+                ))}
+              </div>
+              {/* Frameworks */}
+              <div
+                className="p-title"
+              >
+                FRAMEWORKS
+              </div>
+              <div className="services-items mt-1 px-2">
+                <Tooltip id="framework-tooltip" />
+                {frameworks.map(framework => (
+                  <div
+                    key={framework.name}
+                    className="services-item"
+                    data-tooltip-id="framework-tooltip"
+                    data-tooltip-content={framework.name}
+                    data-tooltip-place="top"
+                  >
+                    <div className="icon">
+                      <i aria-hidden="true" className={framework.icon} />
                     </div>
-                    <a href="#contact-section" className="lnk">
-                      order now
-                    </a>
+                  </div>
+                ))}
+              </div>
+              {/* Tools */}
+              <div
+                className="p-title"
+              >
+                TOOLS
+              </div>
+              <div className="services-items mt-1 px-2">
+                <Tooltip id="tool-tooltip" />
+                {tools.map(tool => (
+                  <div
+                    key={tool.name}
+                    className="services-item"
+                    data-tooltip-id="tool-tooltip"
+                    data-tooltip-content={tool.name}
+                    data-tooltip-place="top"
+                  >
+                    <div className="icon">
+                      <i aria-hidden="true" className={tool.icon} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div
+                className="p-title"
+              >
+                EXPERIENCE
+              </div>
+              <div className="history-items">
+                <div
+                  className="history-item"
+                >
+                  <div className="date">Mar 2024 - Present</div>
+                  <div className="name">TechQiao Inc. (テックチャオ株式会社)</div>
+                  <div className="subname">Full Stack Web Developer - Remotely, Shizuoka, Japan</div>
+                  <div className="text">
+                    <p>
+                      I'm working for the same project from the same project with new environment. My role
+                      remains focused on enhancing the application's functionality, user experience, and
+                      performance. Leveraging my extensive experience and deep understanding of the
+                      project.
+                    </p>
                   </div>
                 </div>
-                <div className="services-col">
-                  <div
-                    className="services-item"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="fab fa-soundcloud" />
-                    </div>
-                    <div className="title">Music writing</div>
-                    <div className="text">
-                      <p>
-                        Music copying, writing, creating, transcription and
-                        composition services.
-                      </p>
-                    </div>
-                    <a href="#contact-section" className="lnk">
-                      order now
-                    </a>
+                <div
+                  className="history-item"
+                >
+                  <div className="date">Feb 2022 - Mar 2024</div>
+                  <div className="name">Synchate Co Ltd (株式会社シンクエイト)</div>
+                  <div className="subname">Full Stack Web Developer - Remotely, Tokyo, Japan</div>
+                  <div className="text">
+                    <p>
+                      I currently work remotely as a full stack developer leveraged Vue.js and Laravel on a big
+                      scale project for clients. My focus is more on the front-end side with the main focus of the
+                      project is developing a web from a 20 years desktop app.
+
+                    </p>
                   </div>
                 </div>
-                <div className="services-col">
-                  <div
-                    className="services-item"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="fab fa-adversal" />
-                    </div>
-                    <div className="title">Advetising</div>
-                    <div className="text">
-                      <p>
-                        Advertising services include television, radio, print,
-                        mail, and web apps.
-                      </p>
-                    </div>
-                    <a href="#contact-section" className="lnk">
-                      order now
-                    </a>
+                <div
+                  className="history-item"
+                >
+                  <div className="date">Mar 2021 - Feb 2022</div>
+                  <div className="name">PT. Indeks Media Teknologi</div>
+                  <div className="subname">Full Stack Web Developer - On Site, Samarinda, Indonesia</div>
+                  <div className="text">
+                    <p>I served as a Full Stack Developer for a Japanese project, employing Vue.js for the
+                      frontend and Laravel for the backend service. My role encompassed feature
+                      development, seamless frontend-backend integration, collaborative teamwork in agile,
+                      and communications between Japanese team and Indonesia team.</p>
                   </div>
                 </div>
-                <div className="services-col">
-                  <div
-                    className="services-item"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="fas fa-gamepad" />
-                    </div>
-                    <div className="title">Game Development</div>
-                    <div className="text">
-                      <p>
-                        Developing memorable and unique mobile android, ios and
-                        video games.
-                      </p>
-                    </div>
-                    <a href="#contact-section" className="lnk">
-                      order now
-                    </a>
+                <div
+                  className="history-item"
+                >
+                  <div className="date">Mar 2020 - Mar 2021</div>
+                  <div className="name">PT. Thortech Asia Software</div>
+                  <div className="subname">Full Stack Web Developer - On Site, Samarinda, Indonesia</div>
+                  <div className="text">
+                    <p>Developed two projects using React.js and Laravel as a full stack developer working in a
+                      team of four and act as the lead of the front-end team.</p>
                   </div>
                 </div>
               </div>
@@ -413,18 +405,21 @@ const Index = () => {
                   <div
                     className="history-item"
                   >
-                    <div className="date">2010 - 2012</div>
-                    <div className="name">Master in Graphic</div>
-                    <div className="subname">New York University</div>
+                    <div className="date">Mar 2021 - Present</div>
+                    <div className="name">Universitas Mulawarman</div>
+                    <div className="subname">Bachelors of Informatics Engineering</div>
                   </div>
                   <div
                     className="history-item"
                   >
-                    <div className="date">2006 - 2009</div>
-                    <div className="name">Bachelors of FineArt</div>
-                    <div className="subname">New York University</div>
+                    <div className="date">Mar 2019 - Mar 2021</div>
+                    <div className="name">SMKN 7 Samarinda</div>
+                    <div className="subname">Vocational Study (RPL)</div>
                   </div>
                 </div>
+
+              </div>
+              <div className="history-right">
                 <div className="history-items">
                   <div
                     className="p-title"
@@ -434,83 +429,25 @@ const Index = () => {
                   <div
                     className="history-item"
                   >
-                    <div className="date">2016 - awwwards</div>
-                    <div className="name">Site of the Day</div>
+                    <div className="date">2023 - Hackathon 4.0 x #Hack4ID</div>
+                    <div className="name">Favorite Winner "Livvy"</div>
                     <div className="text">
                       <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    className="history-item"
-                  >
-                    <div className="date">2015 - designnominees</div>
-                    <div className="name">Site of the Week</div>
-                    <div className="text">
-                      <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
+                        Livvy is a service that provides a new solution for house down-payment using
+                        blockchain technology.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="history-right">
-                <div className="history-items">
-                  <div
-                    className="p-title"
-                  >
-                    EXPERIENCE
-                  </div>
-                  <div
-                    className="history-item"
-                  >
-                    <div className="date">2014 - Present</div>
-                    <div className="name">Soft Tech Inc.</div>
-                    <div className="subname">UI Head &amp; Manager</div>
-                    <div className="text">
-                      <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    className="history-item"
-                  >
-                    <div className="date">2010 - 2014</div>
-                    <div className="name">Kana Design Studio</div>
-                    <div className="subname">UI / UX Specialist</div>
-                    <div className="text">
-                      <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    className="history-item"
-                  >
-                    <div className="date">2009 - 2010</div>
-                    <div className="name">Paperart</div>
-                    <div className="subname">Graphic Designer</div>
-                    <div className="text">
-                      <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
               <div className="clear" />
               {/* Button CV */}
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://bslthemes.site/ober/wp-content/uploads/2021/12/Jacky-Smith-Resume.pdf"
+                download
+                href="/assets/files/resume.pdf"
                 className="btn"
               >
                 <span>Download CV</span>

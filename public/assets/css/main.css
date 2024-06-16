@@ -2339,6 +2339,9 @@ body.light-skin .header.sticky .navbar.default:before {
 	margin-top: 25px;
 	font-size: 0;
 	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .skills-item:first-child {
@@ -2348,52 +2351,31 @@ body.light-skin .header.sticky .navbar.default:before {
 .skills-item .name {
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
 	font-size: 24px;
 	line-height: 20px;
 	font-weight: 700;
 }
 
-.skills-item .dots {
-	display: inline-block;
-	vertical-align: top;
-	width: 50%;
-}
-
-.skills-item .dots-row {
-	display: flex;
-	justify-content: space-between;
-}
-
-.skills-item .dots .dot {
-	width: 20px;
-	height: 20px;
-	background: #181e27;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-}
-
 .skills-item .value {
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
 	text-align: right;
 }
 
 .skills-item .value .num {
 	margin-top: -3px;
-	padding: 0 10px;
+	padding: 10px 20px 5px 20px;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
-	height: 26px;
-	line-height: 26px;
+	height: 35px;
 	text-align: right;
 	background: #ff8059;
 	border-radius: 28px;
 	-webkit-border-radius: 28px;
+
 }
 
 .skills-item .dots.dots-1 .dot:nth-child(-n+1),
@@ -2570,7 +2552,7 @@ body.light-skin .header.sticky .navbar.default:before {
 .services-items {
 	margin-top: -40px;
 	display: flex;
-	justify-content: space-between;
+	gap: 10px;
 	flex-wrap: wrap;
 }
 
@@ -2579,9 +2561,6 @@ body.light-skin .header.sticky .navbar.default:before {
 	flex: 0 0 50%;
 }
 
-.services-item {
-	padding: 40px 0 0 0;
-}
 
 .services-item:first-child {
 	margin-top: 0;
