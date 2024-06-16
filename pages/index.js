@@ -31,6 +31,7 @@ const Index = () => {
     { name: 'Laravel', icon: 'devicon-laravel-original' },
     { name: 'Vue.js', icon: 'devicon-vuejs-plain' },
     { name: 'React', icon: 'devicon-react-original' },
+    { name: 'JQuery', icon: 'devicon-jquery-plain' },
     { name: 'Node.js', icon: 'devicon-nodejs-plain' },
     { name: 'Tailwindcss', icon: 'devicon-tailwindcss-original' },
     { name: 'Ant Design', icon: 'devicon-antdesign-plain' },
@@ -440,7 +441,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="clear" />
               {/* Button CV */}
               <a
@@ -477,8 +478,7 @@ const Index = () => {
                 className="text"
               >
                 <p>
-                  A Collection of my favorites project I’ve designed recently.
-                  Feeling great while sharing here.
+                  Here is a collection of my favorite projects that I've developed recently. Each project showcases my skills and dedication to creating high-quality applications. From innovative features to seamless user experiences, these projects represent the best of my work.
                 </p>
               </div>
             </div>
