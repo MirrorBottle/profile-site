@@ -1,6 +1,7 @@
 import Isotope from "isotope-layout";
 import { nanoid } from "nanoid";
 import Link from "next/link";
+import Img from "next/image"
 import { Fragment, useEffect, useRef, useState } from "react";
 const ProjectIsotop = () => {
   // Isotope
@@ -45,7 +46,7 @@ const ProjectIsotop = () => {
       title: 'Company Profile',
       client: 'DISTAN Kutai Barat',
       sorting: 'compro',
-      url: 'https://distan-kubar.thortech.asia/',
+      url: 'https://pertanian.kutaibaratkab.go.id/',
       techs: [
         { name: "laravel", title: "Laravel 5.8" },
         { name: "bootstrap", title: "Bootstrap 4" },
@@ -307,6 +308,12 @@ const ProjectIsotop = () => {
       console.log(isotope)
     }
   }, [filterKey]);
+  useEffect(() => {
+    if (isotope.current) {
+      isotope.current.reloadItems();
+      isotope.current.arrange();
+    }
+  }, [projects]);
   const handleFilterKeyChange = (key) => () => {
     setFilterKey(key);
   };
@@ -369,6 +376,16 @@ const ProjectIsotop = () => {
                           <p className="m-0" key={tech.name}><i className={techs[tech.name] ? techs[tech.name].icon : ''}></i> {tech.title}</p>
                         ))}
                       </div>
+                      {'url' in project && (
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href={project.url}
+                          className="btn mt-2"
+                        >
+                          <span>Visit Site</span>
+                        </a>
+                      )}
                     </span>
                   </span>
                 </a>
