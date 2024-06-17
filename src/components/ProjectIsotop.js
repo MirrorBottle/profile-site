@@ -25,7 +25,9 @@ const ProjectIsotop = () => {
     capacitor: { name: 'Capacitor', icon: 'devicon-capacitor-plain colored' },
     express: { name: 'Express', icon: 'devicon-express-original colored' },
     codeigniter: { name: 'CodeIgniter', icon: 'devicon-codeigniter-plain colored' },
-    git: { name: 'Git', icon: 'devicon-git-plain colored' }
+    git: { name: 'Git', icon: 'devicon-git-plain colored' },
+    firebase: { name: 'Git', icon: 'devicon-firebase-plain colored' },
+    unity: { name: 'Git', icon: 'devicon-unity-plain colored' },
   };
   const projects = [
     {
@@ -282,6 +284,61 @@ const ProjectIsotop = () => {
       ],
       url: 'https://citra99.com/'
     },
+    {
+      id: nanoid(),
+      img: 'simpanin.png',
+      title: 'Simpanin',
+      client: 'Self Project',
+      sorting: 'mobile',
+      techs: [
+        { name: "flutter", title: "Flutter 3" },
+        { name: "firebase", title: "Firebase" }
+      ],
+    },
+    {
+      id: nanoid(),
+      img: 'pourview.png',
+      title: 'Pourview',
+      client: 'Self Project',
+      sorting: 'mobile',
+      techs: [
+        { name: "unity", title: "Unity AR" },
+      ],
+    },
+    {
+      id: nanoid(),
+      img: 'loakulukota.png',
+      title: 'Resident Data Collection',
+      client: 'Dusun Loa Kulu Kota',
+      sorting: 'mobile',
+      techs: [
+        { name: "flutter", title: "Flutter 3" },
+        { name: "firebase", title: "Firebase" },
+        { name: "laravel", title: "Laravel" },
+      ],
+    },
+    {
+      id: nanoid(),
+      img: 'flutix.png',
+      title: 'Flutix',
+      client: 'Self Project',
+      sorting: 'mobile',
+      techs: [
+        { name: "flutter", title: "Flutter 3" },
+        { name: "firebase", title: "Firebase" },
+      ],
+    },
+    {
+      id: nanoid(),
+      img: 'livvy.png',
+      title: 'Livvy',
+      client: 'Hackathon',
+      sorting: 'mobile',
+      techs: [
+        { name: "flutter", title: "Flutter 3" },
+        { name: "firebase", title: "Firebase" },
+      ],
+    },
   ];
   useEffect(() => {
     setTimeout(() => {
@@ -329,28 +386,28 @@ const ProjectIsotop = () => {
             onClick={handleFilterKeyChange("*")}
             data-href=".works-col"
           >
-            All
+            All ({projects.length})
           </a>
           <a
             className={`c-pointer ${activeBtn("sorting-compro")}`}
             onClick={handleFilterKeyChange("sorting-compro")}
             data-href=".sorting-compro"
           >
-            Web Profile
+            Web Profile ({projects.filter(p => p.sorting == 'compro').length})
           </a>
           <a
             className={`c-pointer ${activeBtn("sorting-web")}`}
             onClick={handleFilterKeyChange("sorting-web")}
             data-href=".sorting-web"
           >
-            Web System
+            Web System ({projects.filter(p => p.sorting == 'web').length})
           </a>
           <a
             className={`c-pointer ${activeBtn("sorting-mobile")}`}
             onClick={handleFilterKeyChange("sorting-mobile")}
             data-href=".sorting-mobile"
           >
-            Mobile Dev
+            Mobile Dev ({projects.filter(p => p.sorting == 'mobile').length})
           </a>
         </div>
         <div className="works-items works-list-items row">

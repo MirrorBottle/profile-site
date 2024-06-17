@@ -52,6 +52,7 @@ const Index = () => {
     { name: 'Github', icon: 'devicon-github-plain' },
     { name: 'Gitlab', icon: 'devicon-gitlab-plain' },
     { name: 'NPM', icon: 'devicon-npm-original-wordmark' },
+    { name: 'Firebase', icon: 'devicon-firebase-plain' },
     { name: 'Jira', icon: 'devicon-jira-plain' },
     { name: 'Eslint', icon: 'devicon-eslint-plain' },
     { name: 'Jetpack', icon: 'devicon-jetpackcompose-plain' },
