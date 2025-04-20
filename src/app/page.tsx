@@ -148,7 +148,7 @@ export default function Page() {
                   My Portfolio
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out what I've made!⌨️
+                  Check out what I&apos;ve made!⌨️
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
