@@ -1,12 +1,14 @@
 {
-  "name": "porfolio",
+  "name": "bayu-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "verify:portfolio": "node scripts/verify-portfolio.mjs"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",

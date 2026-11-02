@@ -1,0 +1,794 @@
+[
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/anandita.png",
+    "destination": "public/legacy/main/images/anandita.png",
+    "bytes": 157312,
+    "sha256": "a12fca4c2fc87b7a8840e31a5902a6f19f73402660a7506b13073a86a5b1103e"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/bdriver.png",
+    "destination": "public/legacy/main/images/bdriver.png",
+    "bytes": 96794,
+    "sha256": "397665c502bf569489bb40a42789b8a14c2868d047f573f025a3daa6aed620b1"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/citra-mobile.png",
+    "destination": "public/legacy/main/images/citra-mobile.png",
+    "bytes": 285061,
+    "sha256": "54b65d2b4628724e040eae7cec70fc040539a270f85ca7ecc0b3e554dd8c2f7d"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/citra-profile.png",
+    "destination": "public/legacy/main/images/citra-profile.png",
+    "bytes": 961881,
+    "sha256": "dbf73235da879e7ab6655b9780e6642337bc6595d217f2c1a023591a88e830ac"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/citra.png",
+    "destination": "public/legacy/main/images/citra.png",
+    "bytes": 123943,
+    "sha256": "9ba760836a430a18fccd477d39a66145da85aa93e0d1e47cb225611c79320829"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/distan-kubar.png",
+    "destination": "public/legacy/main/images/distan-kubar.png",
+    "bytes": 419733,
+    "sha256": "3b0db60676a15ceabf42788db6b629616575f0ceee60ae906865a52b2c9cbb46"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/favicon.png",
+    "destination": "public/legacy/main/images/favicon.png",
+    "bytes": 5597,
+    "sha256": "f276f4ea3bc23e322bb93a2b66881a29bebd1b983b505af7e6c1ef899a4e439e"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/gjmf.png",
+    "destination": "public/legacy/main/images/gjmf.png",
+    "bytes": 181777,
+    "sha256": "7a7bf5cdb5fac4657ced6d5cd9a8baa217a6f997c7c1da531fddaf7e3ea34217"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/imagin-sketch.png",
+    "destination": "public/legacy/main/images/imagin-sketch.png",
+    "bytes": 342748,
+    "sha256": "949fd65f02ca61942f18603c94c66e26cbe46cac64706e61702769e332548ba5"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/imm.png",
+    "destination": "public/legacy/main/images/imm.png",
+    "bytes": 160466,
+    "sha256": "d3c96efa95b40baa537f09be0586b5d9a14842cb2a22aac357c70139a1969329"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/japan.jpg",
+    "destination": "public/legacy/main/images/japan.jpg",
+    "bytes": 94745,
+    "sha256": "8c54419c9dec56c84bec33938d6ad5054d90c30407aaebf0a08fd4ccfe9762d2"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/kenji.png",
+    "destination": "public/legacy/main/images/kenji.png",
+    "bytes": 430546,
+    "sha256": "a11dc6f56746808027df7657d780ea4f8a602c6642d2767d994da558adee13a3"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/ksp.png",
+    "destination": "public/legacy/main/images/ksp.png",
+    "bytes": 179055,
+    "sha256": "46befcae92e4fb9721f7ee228323703ecd4d17e1b0f4f6d0941e831a72750487"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/naj.png",
+    "destination": "public/legacy/main/images/naj.png",
+    "bytes": 244290,
+    "sha256": "4cd91d855edd75c5a2faab21e9d30af87e9daafc78a3f18209748fbaff32c530"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/natari.png",
+    "destination": "public/legacy/main/images/natari.png",
+    "bytes": 479162,
+    "sha256": "e576fa8f862d0c5efe204b5cf61f560ee4313ea279f3fb35369fb74288d1a7b4"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/online-kubar.png",
+    "destination": "public/legacy/main/images/online-kubar.png",
+    "bytes": 244811,
+    "sha256": "bea48bb7a1b73d9ef7d665897517f3bc7acd3f3a9ed4b37f6c9273b165e76cd2"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/perumdam.png",
+    "destination": "public/legacy/main/images/perumdam.png",
+    "bytes": 533523,
+    "sha256": "0324ac5ac1a9dc82f4d8539eaced1864e216591f7a385ff0cf7a132b3a79fd39"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/profile-pict.jpg",
+    "destination": "public/legacy/main/images/profile-pict.jpg",
+    "bytes": 130098,
+    "sha256": "c60bcc38a651fb938ca5a714206eec3337e6de7618f03f2402c2ad5320c30aa7"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/profile.jpg",
+    "destination": "public/legacy/main/images/profile.jpg",
+    "bytes": 892848,
+    "sha256": "99992939d4241e01d3ec733dcd0aeab28913791c049bd4c6aba7fbd32827a6cb"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/project.jpg",
+    "destination": "public/legacy/main/images/project.jpg",
+    "bytes": 779900,
+    "sha256": "53bdca2e1912948b73ae446cdf537bc1dbba28efc171e55e450f8c3ec50c1ae6"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/pt-anandita-app.png",
+    "destination": "public/legacy/main/images/pt-anandita-app.png",
+    "bytes": 271012,
+    "sha256": "51a8a0b4145ed3a54922806ccb369335932aa411b5d8d4a158952f282fd80635"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/resume.pdf",
+    "destination": "public/legacy/main/images/resume.pdf",
+    "bytes": 70457,
+    "sha256": "4505dbda321aa35139623caf4f2ca61849657d06fe0db70133bacc74909b26c7"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/siabanggp.png",
+    "destination": "public/legacy/main/images/siabanggp.png",
+    "bytes": 174656,
+    "sha256": "c0523dacd684f598df96853f1ea6ca3158c38debce18c5b800f7174ee3e961dd"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/sidabusu.png",
+    "destination": "public/legacy/main/images/sidabusu.png",
+    "bytes": 97612,
+    "sha256": "42b587387a1923842031672665611dc79a187f111a256ad7eeef20eaf1b3b3af"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/sidayaku.png",
+    "destination": "public/legacy/main/images/sidayaku.png",
+    "bytes": 140901,
+    "sha256": "1d2c8773bb093da87e391f3bf9e473997ab70a175d9a178bf51887f7d981579b"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/simpeg.png",
+    "destination": "public/legacy/main/images/simpeg.png",
+    "bytes": 68028,
+    "sha256": "385b81a072267bb3f2ccc82b7882f261446328f8819ae75e692c98da874b165c"
+  },
+  {
+    "ref": "origin/main",
+    "commit": "e1c588790f9adc95e99da398f2c11a2a57a124e8",
+    "source": "src/images/vote.jpg",
+    "destination": "public/legacy/main/images/vote.jpg",
+    "bytes": 35999,
+    "sha256": "a7f3b7428eea2a0e42429c6779f43001cd0d3d3b4866796b8c66f28939869201"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/files/resume.pdf",
+    "destination": "public/legacy/v2/files/resume.pdf",
+    "bytes": 821105,
+    "sha256": "f5c1d410c174ac833ef09a2accfece0300fd43dfd3c37959bbba9cea016fa089"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/angle.svg",
+    "destination": "public/legacy/v2/images/angle.svg",
+    "bytes": 146,
+    "sha256": "dd64d94ee90a90548454e936ee924e9bb4916e7053c2be125c115615dd605bf3"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/arrow.svg",
+    "destination": "public/legacy/v2/images/arrow.svg",
+    "bytes": 502,
+    "sha256": "f10308e9d5630a9554f3ff991ac9a8df59d73d6a40700a1c34b30b2c15907c38"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/avatar.png",
+    "destination": "public/legacy/v2/images/avatar.png",
+    "bytes": 1784,
+    "sha256": "c93b5678d2c4b70b137a462a639011f7193fe1e58b56d0d4a1c4ada5bcdc022c"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/blog3.jpg",
+    "destination": "public/legacy/v2/images/blog3.jpg",
+    "bytes": 49935,
+    "sha256": "d99045dd0328479bc8cdc24dcfded2f761369d60fcab47bd508fbb26a0893f52"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/blog4.jpg",
+    "destination": "public/legacy/v2/images/blog4.jpg",
+    "bytes": 69082,
+    "sha256": "045520c471cd4f904b5224d89127ced001b8790fdbc6eb8d6c85cb72eeab1365"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/blog5.jpg",
+    "destination": "public/legacy/v2/images/blog5.jpg",
+    "bytes": 46784,
+    "sha256": "4283e0f18d0e5e6279e6935532c1f0e86db9a2963b3283085840a6f761b9c679"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/blog7.jpg",
+    "destination": "public/legacy/v2/images/blog7.jpg",
+    "bytes": 18919,
+    "sha256": "813a00afa3ec1b50d8f990c4be8788932f584a82a8416468fd83259e81f04daa"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/blog8.jpg",
+    "destination": "public/legacy/v2/images/blog8.jpg",
+    "bytes": 28093,
+    "sha256": "38f1ddc4ffbb3e30790838d209c4bf57752c7439221d7882baa8b82b9a073df0"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/blog9.jpg",
+    "destination": "public/legacy/v2/images/blog9.jpg",
+    "bytes": 55007,
+    "sha256": "1a23d088976f3f98df565c903e61fc00cd5e9a6443b0c60bd64e9c16a34353a4"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/brand1.png",
+    "destination": "public/legacy/v2/images/brand1.png",
+    "bytes": 7629,
+    "sha256": "b44a244227f5c81cf995bd33c36dab2b4aff6fea7a8bd28f3c53bbaa1fd36266"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/brand2.png",
+    "destination": "public/legacy/v2/images/brand2.png",
+    "bytes": 3021,
+    "sha256": "e091bcdde8de331779a4eea6b1e64bcfdbe9cd8aebec0cdd95ba9c40de127cbe"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/brand3.png",
+    "destination": "public/legacy/v2/images/brand3.png",
+    "bytes": 1700,
+    "sha256": "034bd084042e59707233339ec218445fde8ef684183c5a2d974e27ccc2b50ba5"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/brand4.png",
+    "destination": "public/legacy/v2/images/brand4.png",
+    "bytes": 6695,
+    "sha256": "be4c19e91533b77b54a537364e0f281274e9a33874c23d81b0ec081ffdc479ec"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/caret-down.svg",
+    "destination": "public/legacy/v2/images/caret-down.svg",
+    "bytes": 434,
+    "sha256": "916d8d3be2302e2df7440226f4e856a5980d1fa1ada5dae4cabe80eb926b3c50"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/circle.svg",
+    "destination": "public/legacy/v2/images/circle.svg",
+    "bytes": 500,
+    "sha256": "1562ba927c8399e73da503ff3fcc994ee20b6ca16b52797f1207ffa10e04d829"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/ober_logo.png",
+    "destination": "public/legacy/v2/images/ober_logo.png",
+    "bytes": 3041,
+    "sha256": "72560778655ea72a0c33154ee9da3b4bde2cfeae24263109e694fb4a13777833"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/parallax_1.svg",
+    "destination": "public/legacy/v2/images/parallax_1.svg",
+    "bytes": 1324,
+    "sha256": "59b80505669e05885b5f0473e55e75733ab1264c5a2635a2b88334c2b2c05f95"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/parallax_1_1.svg",
+    "destination": "public/legacy/v2/images/parallax_1_1.svg",
+    "bytes": 918,
+    "sha256": "9593115a4233d1ae98753d6c584f24e2ab9aeac2f609f6715d97a1332b218a4e"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/parallax_2.svg",
+    "destination": "public/legacy/v2/images/parallax_2.svg",
+    "bytes": 918,
+    "sha256": "c1014d30f5f06f597077eb3c96a7d196f944acecdd86983b680189c069c5f1ab"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/parallax_2_2.svg",
+    "destination": "public/legacy/v2/images/parallax_2_2.svg",
+    "bytes": 812,
+    "sha256": "ffd9f3115637b008ad5b331c2d538d091683f2e72d19b3f7d2a69b8e753cc893"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/parallax_3.svg",
+    "destination": "public/legacy/v2/images/parallax_3.svg",
+    "bytes": 935,
+    "sha256": "a4f611b4b237bc5f828c1c7a05a9cb9fd39c3bac4c1dcfe260fbb656bc2b3122"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/profile.png",
+    "destination": "public/legacy/v2/images/profile.png",
+    "bytes": 275994,
+    "sha256": "84022a1bace3f60055b982790ee9309b87c6f56127113412a99205d13b6cc6f4"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/quote.svg",
+    "destination": "public/legacy/v2/images/quote.svg",
+    "bytes": 927,
+    "sha256": "4134ce744ccfb4a9e4b4adc3c3971679baad18f9f0a368f668018e82ff61dff5"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/resume.pdf",
+    "destination": "public/legacy/v2/images/resume.pdf",
+    "bytes": 799608,
+    "sha256": "15ef69e1975c413ce3c3dda9af9e82658f3659bada5ac8d172fc5e2cecd100d5"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/search.svg",
+    "destination": "public/legacy/v2/images/search.svg",
+    "bytes": 481,
+    "sha256": "6b5eeeae573fbb9b0763e3af90a6e89213b9852f2181a1684352f694c7d204f1"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/signature.png",
+    "destination": "public/legacy/v2/images/signature.png",
+    "bytes": 7110,
+    "sha256": "671fe5636ba9ed26aa0569ec35362bc1d76cc2c3bafb34234a83d39d164c7795"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/single1.jpg",
+    "destination": "public/legacy/v2/images/single1.jpg",
+    "bytes": 51359,
+    "sha256": "d435a1a9421ddbec7313feb134606cda1fe09af8707702e1d3f821cff1b5e926"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/single6.jpg",
+    "destination": "public/legacy/v2/images/single6.jpg",
+    "bytes": 59603,
+    "sha256": "2f56b25181147be856d5d482cbc605c5ec06f250dbf15d073df38b4680624b8e"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/single7.jpg",
+    "destination": "public/legacy/v2/images/single7.jpg",
+    "bytes": 52235,
+    "sha256": "9a762e22c9d0f7cd549576bef4c752d608b23a8bfce55d26fbcbbebc411ddc98"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/single8.jpg",
+    "destination": "public/legacy/v2/images/single8.jpg",
+    "bytes": 87358,
+    "sha256": "4cabe328f5788df4201a645382dc646053ce6c37c68a37e0fdf0dda234a62c3f"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/team3.jpg",
+    "destination": "public/legacy/v2/images/team3.jpg",
+    "bytes": 30281,
+    "sha256": "11c42add050dbf97ad0d8bcae51ff9bf03ec2c472ada15656c3d1b74b8910a40"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/work1.jpg",
+    "destination": "public/legacy/v2/images/work1.jpg",
+    "bytes": 32827,
+    "sha256": "f4c658583cb62aea32ee507149d03121e6d2d2669e4a1aacd725c17788c05101"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/work2.jpg",
+    "destination": "public/legacy/v2/images/work2.jpg",
+    "bytes": 27949,
+    "sha256": "28652717bf90fcaffb599a094fdb0b144687fee60fff4aa188c92352ed1ba08f"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/work4.jpg",
+    "destination": "public/legacy/v2/images/work4.jpg",
+    "bytes": 20917,
+    "sha256": "f515aea556ff75e24039304ba309dc2db7881d8dcd314f78bad6f3f2536646e1"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/work7.jpg",
+    "destination": "public/legacy/v2/images/work7.jpg",
+    "bytes": 103617,
+    "sha256": "461e99573c2528e77823acfbcf54b2b62bffcc716e893631ca9ae662a42faf4c"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/anandita.png",
+    "destination": "public/legacy/v2/images/works/anandita.png",
+    "bytes": 157312,
+    "sha256": "a12fca4c2fc87b7a8840e31a5902a6f19f73402660a7506b13073a86a5b1103e"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/bdriver.png",
+    "destination": "public/legacy/v2/images/works/bdriver.png",
+    "bytes": 96794,
+    "sha256": "397665c502bf569489bb40a42789b8a14c2868d047f573f025a3daa6aed620b1"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/citra-mobile.png",
+    "destination": "public/legacy/v2/images/works/citra-mobile.png",
+    "bytes": 285061,
+    "sha256": "54b65d2b4628724e040eae7cec70fc040539a270f85ca7ecc0b3e554dd8c2f7d"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/citra-profile.png",
+    "destination": "public/legacy/v2/images/works/citra-profile.png",
+    "bytes": 961881,
+    "sha256": "dbf73235da879e7ab6655b9780e6642337bc6595d217f2c1a023591a88e830ac"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/citra.png",
+    "destination": "public/legacy/v2/images/works/citra.png",
+    "bytes": 123943,
+    "sha256": "9ba760836a430a18fccd477d39a66145da85aa93e0d1e47cb225611c79320829"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/distan-kubar.png",
+    "destination": "public/legacy/v2/images/works/distan-kubar.png",
+    "bytes": 419733,
+    "sha256": "3b0db60676a15ceabf42788db6b629616575f0ceee60ae906865a52b2c9cbb46"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/flutix.png",
+    "destination": "public/legacy/v2/images/works/flutix.png",
+    "bytes": 738973,
+    "sha256": "9fb32838abe64bbf216fc14711e169632f4a432ddd7611c61e16090b9dd9f746"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/gjmf.png",
+    "destination": "public/legacy/v2/images/works/gjmf.png",
+    "bytes": 181777,
+    "sha256": "7a7bf5cdb5fac4657ced6d5cd9a8baa217a6f997c7c1da531fddaf7e3ea34217"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/imagin-sketch.png",
+    "destination": "public/legacy/v2/images/works/imagin-sketch.png",
+    "bytes": 342748,
+    "sha256": "949fd65f02ca61942f18603c94c66e26cbe46cac64706e61702769e332548ba5"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/imm.png",
+    "destination": "public/legacy/v2/images/works/imm.png",
+    "bytes": 160466,
+    "sha256": "d3c96efa95b40baa537f09be0586b5d9a14842cb2a22aac357c70139a1969329"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/japan.jpg",
+    "destination": "public/legacy/v2/images/works/japan.jpg",
+    "bytes": 94745,
+    "sha256": "8c54419c9dec56c84bec33938d6ad5054d90c30407aaebf0a08fd4ccfe9762d2"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/kenji.png",
+    "destination": "public/legacy/v2/images/works/kenji.png",
+    "bytes": 430546,
+    "sha256": "a11dc6f56746808027df7657d780ea4f8a602c6642d2767d994da558adee13a3"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/ksp.png",
+    "destination": "public/legacy/v2/images/works/ksp.png",
+    "bytes": 179055,
+    "sha256": "46befcae92e4fb9721f7ee228323703ecd4d17e1b0f4f6d0941e831a72750487"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/livvy.png",
+    "destination": "public/legacy/v2/images/works/livvy.png",
+    "bytes": 341133,
+    "sha256": "abe1aee000eda3051a7442f466bcb5f39beb81b3f375a0b322635c02fa77dfef"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/loakulukota.png",
+    "destination": "public/legacy/v2/images/works/loakulukota.png",
+    "bytes": 339814,
+    "sha256": "982dd500fa3598ce7c8fd40e446803402e92faecf359551c61a517fa35cef3d1"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/naj.png",
+    "destination": "public/legacy/v2/images/works/naj.png",
+    "bytes": 244290,
+    "sha256": "4cd91d855edd75c5a2faab21e9d30af87e9daafc78a3f18209748fbaff32c530"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/natari.png",
+    "destination": "public/legacy/v2/images/works/natari.png",
+    "bytes": 479162,
+    "sha256": "e576fa8f862d0c5efe204b5cf61f560ee4313ea279f3fb35369fb74288d1a7b4"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/online-kubar.png",
+    "destination": "public/legacy/v2/images/works/online-kubar.png",
+    "bytes": 244811,
+    "sha256": "bea48bb7a1b73d9ef7d665897517f3bc7acd3f3a9ed4b37f6c9273b165e76cd2"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/perumdam.png",
+    "destination": "public/legacy/v2/images/works/perumdam.png",
+    "bytes": 533523,
+    "sha256": "0324ac5ac1a9dc82f4d8539eaced1864e216591f7a385ff0cf7a132b3a79fd39"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/pourview.png",
+    "destination": "public/legacy/v2/images/works/pourview.png",
+    "bytes": 645059,
+    "sha256": "646706ae202435ad5e77ce1805d2eadf01f83c469bd79308652e45a5d656397a"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/pt-anandita-app.png",
+    "destination": "public/legacy/v2/images/works/pt-anandita-app.png",
+    "bytes": 271012,
+    "sha256": "51a8a0b4145ed3a54922806ccb369335932aa411b5d8d4a158952f282fd80635"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/puskesmasloakulu.png",
+    "destination": "public/legacy/v2/images/works/puskesmasloakulu.png",
+    "bytes": 881973,
+    "sha256": "f0cf17e25741b1357497ea3376f8a10c79bcd937ada9c255c1fc6b967d0e48b3"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/realpix-ai.png",
+    "destination": "public/legacy/v2/images/works/realpix-ai.png",
+    "bytes": 599819,
+    "sha256": "4f1780c5fc958cf0de009d5e6bfb8a753d2c1c9d0701caae49b708a52234192d"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/screencapture-biroumum-kaltimprov-go-id-2024-06-01-18_18_55.png",
+    "destination": "public/legacy/v2/images/works/screencapture-biroumum-kaltimprov-go-id-2024-06-01-18_18_55.png",
+    "bytes": 6051232,
+    "sha256": "47f105f5ef3461efde16dc197d67bc7d13e2141bab86b942ea3a1c2d8b730181"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/screencapture-candisrigading-id-2024-06-01-18_38_24.png",
+    "destination": "public/legacy/v2/images/works/screencapture-candisrigading-id-2024-06-01-18_38_24.png",
+    "bytes": 7987676,
+    "sha256": "c518326f27efa90ecc7bd22ef8b84d08c87b06df98937f8fa6683591d507682a"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/screencapture-realpix-ai-vercel-app-playground-2024-06-01-17_38_37.png",
+    "destination": "public/legacy/v2/images/works/screencapture-realpix-ai-vercel-app-playground-2024-06-01-17_38_37.png",
+    "bytes": 599819,
+    "sha256": "4f1780c5fc958cf0de009d5e6bfb8a753d2c1c9d0701caae49b708a52234192d"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/screencapture-sisda-kaltimprov-go-id-dashboard-2024-06-01-17_39_36.png",
+    "destination": "public/legacy/v2/images/works/screencapture-sisda-kaltimprov-go-id-dashboard-2024-06-01-17_39_36.png",
+    "bytes": 512015,
+    "sha256": "1dc65051cad0d23829d42147d14df6e9331481f5778e2f26ac0e37c2dceb7828"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/screencapture-sisda-kaltimprov-go-id-vip-agenda-2024-06-01-18_19_56.png",
+    "destination": "public/legacy/v2/images/works/screencapture-sisda-kaltimprov-go-id-vip-agenda-2024-06-01-18_19_56.png",
+    "bytes": 365566,
+    "sha256": "ce0e4fcb04872c4d508fb2a7c5cab8d5fa71e4a82d3e71b8d5da0139e26f06da"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/screencapture-yourbrothers-id-2024-06-01-18_19_09.png",
+    "destination": "public/legacy/v2/images/works/screencapture-yourbrothers-id-2024-06-01-18_19_09.png",
+    "bytes": 5134838,
+    "sha256": "2f7f570de6f57c91c174e86383f49884eefff647fa7d29ddbdfe6c25c39b05c3"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/siabanggp.png",
+    "destination": "public/legacy/v2/images/works/siabanggp.png",
+    "bytes": 174656,
+    "sha256": "c0523dacd684f598df96853f1ea6ca3158c38debce18c5b800f7174ee3e961dd"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/sidabusu.png",
+    "destination": "public/legacy/v2/images/works/sidabusu.png",
+    "bytes": 97612,
+    "sha256": "42b587387a1923842031672665611dc79a187f111a256ad7eeef20eaf1b3b3af"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/sidayaku.png",
+    "destination": "public/legacy/v2/images/works/sidayaku.png",
+    "bytes": 140901,
+    "sha256": "1d2c8773bb093da87e391f3bf9e473997ab70a175d9a178bf51887f7d981579b"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/simpanin.png",
+    "destination": "public/legacy/v2/images/works/simpanin.png",
+    "bytes": 322655,
+    "sha256": "5496840e0774a2084a448ef6427b63cb86cc056f32e31b799de745470ec3a66e"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/simpeg.png",
+    "destination": "public/legacy/v2/images/works/simpeg.png",
+    "bytes": 68028,
+    "sha256": "385b81a072267bb3f2ccc82b7882f261446328f8819ae75e692c98da874b165c"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/sisda.png",
+    "destination": "public/legacy/v2/images/works/sisda.png",
+    "bytes": 512015,
+    "sha256": "1dc65051cad0d23829d42147d14df6e9331481f5778e2f26ac0e37c2dceb7828"
+  },
+  {
+    "ref": "origin/v2",
+    "commit": "4d7ff423c9537a78aaf8af6b14224836ed88374b",
+    "source": "public/assets/images/works/vote.jpg",
+    "destination": "public/legacy/v2/images/works/vote.jpg",
+    "bytes": 35999,
+    "sha256": "a7f3b7428eea2a0e42429c6779f43001cd0d3d3b4866796b8c66f28939869201"
+  }
+]

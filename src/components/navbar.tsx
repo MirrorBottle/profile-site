@@ -1,76 +1,92 @@
+"use client";
 import { Dock, DockIcon } from "@/components/magicui/dock";
-import { ModeToggle } from "@/components/mode-toggle";
-import { buttonVariants } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { DATA } from "@/data/resume";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { Home, BriefcaseBusiness, FolderOpen, Mail } from "lucide-react";
+import { useEffect, useState } from "react";
+import { motion, useReducedMotion } from "framer-motion";
+import type { Locale } from "@/data/resume";
 
-export default function Navbar() {
+const destinations = ["top", "projects", "experience", "contact"] as const;
+
+export default function Navbar({ locale, onLocaleChange }: { locale: Locale; onLocaleChange: (locale: Locale) => void }) {
+  const [active, setActive] = useState<string>("top");
+  const reducedMotion = useReducedMotion();
+
+  useEffect(() => {
+    let frame: number | null = null;
+    function updateActive() {
+      frame = null;
+      // The dock's four destinations group the sections that follow each one.
+      const readingLine = Math.min(window.innerHeight * 0.3, 240);
+      let current: string = "top";
+      for (const id of destinations) {
+        const section = document.getElementById(id);
+        if (section && section.getBoundingClientRect().top <= readingLine) current = id;
+      }
+      // The final section may never reach the reading line on a tall viewport.
+      const atBottom = window.scrollY > 0 && window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
+      setActive(atBottom ? "contact" : current);
+    }
+    function scheduleUpdate() {
+      if (frame === null) frame = window.requestAnimationFrame(updateActive);
+    }
+    scheduleUpdate();
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleUpdate);
+    window.addEventListener("hashchange", scheduleUpdate);
+    const observer = new ResizeObserver(scheduleUpdate);
+    const content = document.getElementById("main");
+    if (content) observer.observe(content);
+    return () => {
+      window.removeEventListener("scroll", scheduleUpdate);
+      window.removeEventListener("resize", scheduleUpdate);
+      window.removeEventListener("hashchange", scheduleUpdate);
+      observer.disconnect();
+      if (frame !== null) window.cancelAnimationFrame(frame);
+    };
+  }, []);
+
+  const links = [
+    { href: "#top", label: locale === "en" ? "Home" : "ホーム", icon: Home },
+    { href: "#projects", label: locale === "en" ? "Projects" : "制作実績", icon: FolderOpen },
+    { href: "#experience", label: locale === "en" ? "Experience" : "職歴", icon: BriefcaseBusiness },
+    { href: "#contact", label: locale === "en" ? "Contact" : "連絡先", icon: Mail },
+  ];
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
-      <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
-      <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] transform-gpu dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset] ">
-        {DATA.navbar.map((item) => (
-          <DockIcon key={item.href}>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Link
-                  href={item.href}
-                  className={cn(
-                    buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
-                  )}
-                >
-                  <item.icon className="size-4" />
-                </Link>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>{item.label}</p>
-              </TooltipContent>
-            </Tooltip>
+    <nav aria-label={locale === "en" ? "Main navigation" : "メインナビゲーション"} className="fixed inset-x-0 bottom-5 z-40 flex justify-center pointer-events-none">
+      <Dock className="pointer-events-auto items-center gap-0.5 border-white/10 bg-[#171a18]/95 px-2 py-2 shadow-2xl backdrop-blur-xl sm:gap-2 sm:px-3" magnification={44}>
+        {links.map(({ href, label, icon: Icon }) => (
+          <DockIcon key={href}>
+            <a href={href} aria-label={label} title={label} aria-current={active === href.slice(1) ? "location" : undefined} className={`relative flex size-10 items-center justify-center rounded-full transition-colors ${active === href.slice(1) ? "bg-[#b5c5a3]/10 text-[#c5d4b5]" : "text-stone-400 hover:bg-white/5 hover:text-stone-100"}`}>
+              <Icon size={18} strokeWidth={1.5} />
+              {active === href.slice(1) && <span aria-hidden="true" className="absolute bottom-1 size-1 rounded-full bg-[#b5c5a3]" />}
+            </a>
           </DockIcon>
         ))}
-        <Separator orientation="vertical" className="h-full" />
-        {Object.entries(DATA.contact.social)
-          .filter(([_, social]) => social.navbar)
-          .map(([name, social]) => (
-            <DockIcon key={name}>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Link
-                    href={social.url}
-                    className={cn(
-                      buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12"
-                    )}
-                  >
-                    <social.icon className="size-4" />
-                  </Link>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>{name}</p>
-                </TooltipContent>
-              </Tooltip>
-            </DockIcon>
+        <span aria-hidden="true" className="mx-1 h-5 w-px shrink-0 bg-white/10" />
+        <div role="group" aria-label={locale === "en" ? "Language" : "言語"} className="relative flex shrink-0 rounded-full bg-white/[0.04] p-1">
+          <motion.span
+            aria-hidden="true"
+            className="absolute inset-y-1 left-1 w-[calc(50%-0.25rem)] rounded-full bg-[#b5c5a3] shadow-sm"
+            initial={false}
+            animate={{ x: locale === "en" ? "0%" : "100%" }}
+            transition={reducedMotion ? { duration: 0 } : { type: "spring", stiffness: 380, damping: 30 }}
+          />
+          {(["en", "ja"] as const).map((language) => (
+            <motion.button
+              key={language}
+              type="button"
+              lang={language}
+              aria-label={language === "en" ? "English" : "日本語"}
+              aria-pressed={locale === language}
+              onClick={() => onLocaleChange(language)}
+              whileTap={reducedMotion ? undefined : { scale: 0.92 }}
+              className={`relative z-10 flex h-8 w-12 items-center justify-center rounded-full text-[11px] font-medium transition-colors sm:w-14 ${locale === language ? "text-[#151a15]" : "text-stone-400 hover:text-stone-100"}`}
+            >
+              {language === "en" ? "EN" : "日本語"}
+            </motion.button>
           ))}
-        <Separator orientation="vertical" className="h-full py-2" />
-        <DockIcon>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <ModeToggle />
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Theme</p>
-            </TooltipContent>
-          </Tooltip>
-        </DockIcon>
+        </div>
       </Dock>
-    </div>
+    </nav>
   );
 }

@@ -1,0 +1,477 @@
+[
+  {
+    "img": "japan.jpg",
+    "title": "Japan Project",
+    "client": "Classified Client",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 7"
+      },
+      {
+        "name": "vue",
+        "title": "Vue 2"
+      },
+      {
+        "name": "git",
+        "title": "± 3 Year Development"
+      }
+    ]
+  },
+  {
+    "img": "distan-kubar.png",
+    "title": "Company Profile",
+    "client": "DISTAN Kutai Barat",
+    "sorting": "compro",
+    "url": "https://pertanian.kutaibaratkab.go.id/",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 5.8"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      },
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      }
+    ]
+  },
+  {
+    "img": "imm.png",
+    "title": "Vehicle Management System (Maintenance)",
+    "client": "PT. Indominco Mandiri",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 5.8"
+      }
+    ]
+  },
+  {
+    "img": "siabanggp.png",
+    "title": "SIABANG GP",
+    "client": "Dinas Pekerjaan Umum Balikpapan",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 5.8"
+      },
+      {
+        "name": "jquery",
+        "title": "JQuery"
+      }
+    ],
+    "url": "http://siabanggp.balikpapan.go.id/tamu"
+  },
+  {
+    "img": "online-kubar.png",
+    "title": "OK Kubar",
+    "client": "DISKOMINFO Kutai Barat",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 5.8"
+      },
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+      {
+        "name": "typescript",
+        "title": "Typescript"
+      }
+    ]
+  },
+  {
+    "img": "imagin-sketch.png",
+    "title": "Penaku",
+    "client": "Personal Project",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "gatsby",
+        "title": "Gatsby"
+      },
+      {
+        "name": "react",
+        "title": "ReactJS"
+      },
+      {
+        "name": "typescript",
+        "title": "Typescript"
+      }
+    ],
+    "url": "https://penaku.my.id",
+    "repo": "https://github.com/MirrorBottle/profile-site"
+  },
+  {
+    "img": "citra.png",
+    "title": "Citra99 Sharia Fintech",
+    "client": "Citra99",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "vue",
+        "title": "Vue2"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 7"
+      }
+    ]
+  },
+  {
+    "img": "perumdam.png",
+    "title": "Perumdam Flood Report (Thesis)",
+    "client": "Personal Client",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      }
+    ],
+    "url": "http://perumdam.naflatech.com"
+  },
+  {
+    "img": "natari.png",
+    "title": "Natari Company Profile",
+    "client": "Personal Client",
+    "sorting": "compro",
+    "techs": [
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      }
+    ],
+    "url": "http://natari.id"
+  },
+  {
+    "img": "vote.jpg",
+    "title": "E-Vote Konda 2 Balikpapan",
+    "client": "Konda 2 Balikpapan",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      }
+    ]
+  },
+  {
+    "img": "kenji.png",
+    "title": "GKII BPN Profile",
+    "client": "Kemah Injil Balikpapan",
+    "sorting": "compro",
+    "techs": [
+      {
+        "name": "vue",
+        "title": "Vue 3"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      }
+    ],
+    "url": "https://gkiibpn.com"
+  },
+  {
+    "img": "bdriver.png",
+    "title": "BDriver - Vehicle Management System",
+    "client": "Bank Kaltimtara",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      }
+    ]
+  },
+  {
+    "img": "anandita.png",
+    "title": "PT. Anandita Profile",
+    "client": "PT. Anandita Putri Akmal",
+    "sorting": "compro",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      }
+    ],
+    "url": "https://pt-anandita.com"
+  },
+  {
+    "img": "sidayaku.png",
+    "title": "SIDAYAKU - Online Visit System",
+    "client": "Personal Client",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      }
+    ],
+    "url": "https://sidayaku.my.id/"
+  },
+  {
+    "img": "sidabusu.png",
+    "title": "SIDABUSU - Vehicle Management System (App & Website)",
+    "client": "Personal Client",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      },
+      {
+        "name": "ionic",
+        "title": "Ionic 5"
+      }
+    ]
+  },
+  {
+    "img": "simpeg.png",
+    "title": "SIMPEG - Staff Management System",
+    "client": "Personal Client",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Lumen"
+      },
+      {
+        "name": "react",
+        "title": "React"
+      }
+    ]
+  },
+  {
+    "img": "naj.png",
+    "title": "NAJ - E-Procurement (Maintenance)",
+    "client": "NAJ",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "laravel",
+        "title": "Laravel 7"
+      },
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      }
+    ]
+  },
+  {
+    "img": "gjmf.png",
+    "title": "GJMF",
+    "client": "FKIP Unmul",
+    "sorting": "web",
+    "techs": [
+      {
+        "name": "node",
+        "title": "Node JS"
+      },
+      {
+        "name": "vue",
+        "title": "Vue 2"
+      }
+    ]
+  },
+  {
+    "img": "pt-anandita-app.png",
+    "title": "PT. Anandita App",
+    "client": "PT. Anandita Putri Akmal",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "flutter",
+        "title": "Flutter 2"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      }
+    ]
+  },
+  {
+    "img": "citra-mobile.png",
+    "title": "Citra99 Mobile",
+    "client": "Citra99",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "flutter",
+        "title": "Flutter 2"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 7"
+      }
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.citra99.citra99mobile"
+  },
+  {
+    "img": "citra-profile.png",
+    "title": "Citra99 Company Profile & Auction",
+    "client": "Citra99",
+    "sorting": "compro",
+    "techs": [
+      {
+        "name": "jquery",
+        "title": "Jquery"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel 8"
+      },
+      {
+        "name": "bootstrap",
+        "title": "Bootstrap 4"
+      }
+    ],
+    "url": "https://citra99.com/"
+  },
+  {
+    "img": "simpanin.png",
+    "title": "Simpanin",
+    "client": "Self Project",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "flutter",
+        "title": "Flutter 3"
+      },
+      {
+        "name": "firebase",
+        "title": "Firebase"
+      }
+    ]
+  },
+  {
+    "img": "pourview.png",
+    "title": "Pourview",
+    "client": "Self Project",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "unity",
+        "title": "Unity AR"
+      }
+    ]
+  },
+  {
+    "img": "loakulukota.png",
+    "title": "Resident Data Collection",
+    "client": "Dusun Loa Kulu Kota",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "flutter",
+        "title": "Flutter 3"
+      },
+      {
+        "name": "firebase",
+        "title": "Firebase"
+      },
+      {
+        "name": "laravel",
+        "title": "Laravel"
+      }
+    ]
+  },
+  {
+    "img": "flutix.png",
+    "title": "Flutix",
+    "client": "Self Project",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "flutter",
+        "title": "Flutter 3"
+      },
+      {
+        "name": "firebase",
+        "title": "Firebase"
+      }
+    ]
+  },
+  {
+    "img": "livvy.png",
+    "title": "Livvy",
+    "client": "Hackathon",
+    "sorting": "mobile",
+    "techs": [
+      {
+        "name": "flutter",
+        "title": "Flutter 3"
+      },
+      {
+        "name": "firebase",
+        "title": "Firebase"
+      }
+    ]
+  }
+]

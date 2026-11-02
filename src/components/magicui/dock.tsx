@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { motion, useMotionValue, useReducedMotion, useSpring, useTransform } from "framer-motion";
 import React, { PropsWithChildren, useRef } from "react";
 
 export interface DockProps extends VariantProps<typeof dockVariants> {
@@ -34,7 +34,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
 
     const renderChildren = () => {
       return React.Children.map(children, (child: any) => {
-        if (React.isValidElement(child)) {
+        if (React.isValidElement(child) && child.type === DockIcon) {
           return React.cloneElement(child, {
             mousex,
             magnification,
@@ -48,7 +48,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     return (
       <motion.div
         ref={ref}
-        onMouseMove={(e) => mousex.set(e.pageX)}
+        onMouseMove={(e) => mousex.set(e.clientX)}
         onMouseLeave={() => mousex.set(Infinity)}
         {...props}
         className={cn(dockVariants({ className }))}
@@ -81,6 +81,7 @@ const DockIcon = ({
   ...props
 }: DockIconProps) => {
   const ref = useRef<HTMLDivElement>(null);
+  const reducedMotion = useReducedMotion();
 
   const distanceCalc = useTransform(mousex, (val: number) => {
     const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
@@ -102,7 +103,7 @@ const DockIcon = ({
   return (
     <motion.div
       ref={ref}
-      style={{ width }}
+      style={{ width: reducedMotion ? 40 : width }}
       className={cn(
         "flex aspect-square cursor-pointer items-center justify-center rounded-full",
         className
